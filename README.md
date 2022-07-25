@@ -1,14 +1,16 @@
 # Symmetry of quotients
 
-Some short animations to showcase the symmetry of certain equivalence relations plotted over $\mathbf{R}^2$.
+Some short animations to showcase the symmetry of certain equivalence relations plotted over $\mathbb{R}^2$.
 
 ## Examples
 Consider the ring $Z$ and its ideal $3Z$. We can define the quotient ring $Z/3Z$ to be the set of all equivalence classes under the equivalence relation ~ := $x$~$y$ iff $(x-y) \in 3Z$.
 * $Z/3Z$ = {$[0]$, $[1]$, $[2]$}.
 
+![symmetry](https://user-images.githubusercontent.com/107306810/180685772-8a24b79c-1a6e-4671-8410-25ec30f91ca5.gif)
+---
 
-
-
+![equiv_classes](https://user-images.githubusercontent.com/107306810/180686044-adc261b6-e631-4d17-bcb7-2e17061e2201.gif)
+---
 
 ## Running
 
@@ -17,7 +19,7 @@ git clone https://github.com/a-rust/symmetry-of-quotients.git
 cd symmetry-of-quotients
 ~~~
 
-Animating symmetry over $\mathbf{R}^2$:
+Animating symmetry over $\mathbb{R}^2$:
 ~~~
 manim -pql cartesian.py Symmetry
 ~~~
